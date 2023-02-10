@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "test-app",
-    "slug": "test-app",
+    "slug": "my-first-react-native-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4022689e-218a-4668-a55f-8d4da168a098"
+      }
+    },
+    "owner": "snadderbyte"
   }
 }
